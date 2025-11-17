@@ -1,5 +1,9 @@
 # The Faceless Engine 🤖🎬
 
+<a href="https://youtu.be/8gPdW9aZlVU?si=-DvMUAZmSJ133tHh" title="YouTube Overview">
+  <img src="https://img.icons8.com/ios-filled/20/FF0000/youtube-play.png" />
+</a>
+
 A multi-agent pipeline built with Google ADK that turns a single, one-line idea into a complete, "camera-ready" production package for faceless content.
 
 ## 1. The Problem: The "Faceless" Bottleneck
