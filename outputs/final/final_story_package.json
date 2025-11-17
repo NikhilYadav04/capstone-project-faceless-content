@@ -1,0 +1,264 @@
+{
+  "idea": "A short horror video about a person who finds an old, unplugged radio that starts talking",
+  "expanded_idea": {
+    "theme": "The dangers of unseen forces and the unsettling nature of the past resurfacing.",
+    "genre": "Horror",
+    "characters": [
+      {
+        "name": "Sarah",
+        "description": "A curious and slightly reckless young woman who discovers the radio."
+      },
+      {
+        "name": "The Radio Voice",
+        "description": "A disembodied, malevolent entity communicating through the radio."
+      }
+    ],
+    "mood": "Creepy, suspenseful, and terrifying.",
+    "estimated_duration_sec": 30,
+    "cinematic_summary": "Sarah finds an antique radio in her attic. Despite it being unplugged, it crackles to life, emitting a distorted voice that seems to know her name and darkest fears. The voice grows increasingly threatening, culminating in a visual manifestation of its power through the radio's speaker, ending with Sarah screaming as the screen cuts to black."
+  },
+  "script": {
+    "title": "Static Terror",
+    "logline": "A young woman unleashes a malevolent entity when she discovers an antique radio in her attic that knows her deepest fears.",
+    "scenes": [
+      {
+        "scene_number": 1,
+        "location": "INT. ATTIC - DAY",
+        "action": "SARAH (20s), dusts off an old antique radio in a dimly lit attic. Cobwebs hang everywhere. She plugs it in, but nothing happens.",
+        "dialogue": [],
+        "voiceover": ""
+      },
+      {
+        "scene_number": 2,
+        "location": "INT. ATTIC - CONTINUOUS",
+        "action": "Sarah is about to give up and turns to leave when the radio crackles to life. Static fills the air, then a distorted VOICE emerges.",
+        "dialogue": [],
+        "voiceover": ""
+      },
+      {
+        "scene_number": 3,
+        "location": "INT. ATTIC - CONTINUOUS",
+        "action": "Close-up on Sarah's face, a mixture of fear and morbid curiosity. She slowly approaches the radio again.",
+        "dialogue": [
+          {
+            "character": "The Radio Voice",
+            "line": "Sarah... Sarah, is that you?"
+          }
+        ],
+        "voiceover": ""
+      },
+      {
+        "scene_number": 4,
+        "location": "INT. ATTIC - CONTINUOUS",
+        "action": "Sarah hesitates, then responds cautiously. The radio VOICE intensifies, becoming more menacing.",
+        "dialogue": [
+          {
+            "character": "Sarah",
+            "line": "Who is this? How do you know my name?"
+          },
+          {
+            "character": "The Radio Voice",
+            "line": "I know everything, Sarah. Your fears, your secrets..."
+          }
+        ],
+        "voiceover": ""
+      },
+      {
+        "scene_number": 5,
+        "location": "INT. ATTIC - CONTINUOUS",
+        "action": "The radio begins to shake violently. The VOICE is now a guttural growl. The speaker bulges outward, a dark shape forming within.",
+        "dialogue": [
+          {
+            "character": "The Radio Voice",
+            "line": "You can't escape me, Sarah. I'm already inside..."
+          }
+        ],
+        "voiceover": ""
+      },
+      {
+        "scene_number": 6,
+        "location": "INT. ATTIC - CONTINUOUS",
+        "action": "Sarah screams as the dark shape bursts from the speaker. Quick cut to black.",
+        "dialogue": [
+          {
+            "character": "Sarah",
+            "line": "AAAAHHHH!"
+          }
+        ],
+        "voiceover": ""
+      }
+    ],
+    "total_duration_sec": 30
+  },
+  "scenes_list": [
+    {
+      "scene_id": 1,
+      "shot_description": "Wide shot of a dusty, dimly lit attic. Sarah is center frame, dusting off an old antique radio.",
+      "camera_angle": "Wide Shot",
+      "location": "INT. ATTIC - DAY",
+      "key_action": "Sarah dusting off the radio."
+    },
+    {
+      "scene_id": 2,
+      "shot_description": "Medium shot of Sarah plugging in the radio. Cobwebs are visible in the foreground.",
+      "camera_angle": "Medium Shot",
+      "location": "INT. ATTIC - DAY",
+      "key_action": "Plugging in the radio."
+    },
+    {
+      "scene_id": 3,
+      "shot_description": "Close-up on the radio as it crackles to life with static.",
+      "camera_angle": "Close-up",
+      "location": "INT. ATTIC - CONTINUOUS",
+      "key_action": "Radio turning on."
+    },
+    {
+      "scene_id": 4,
+      "shot_description": "Close-up on Sarah's face, a mixture of fear and curiosity.",
+      "camera_angle": "Close-up",
+      "location": "INT. ATTIC - CONTINUOUS",
+      "key_action": "Sarah's reaction to the voice."
+    },
+    {
+      "scene_id": 5,
+      "shot_description": "Medium shot of Sarah cautiously approaching the radio.",
+      "camera_angle": "Medium Shot",
+      "location": "INT. ATTIC - CONTINUOUS",
+      "key_action": "Sarah approaching the radio."
+    },
+    {
+      "scene_id": 6,
+      "shot_description": "Close-up on the radio as the speaker begins to shake violently.",
+      "camera_angle": "Close-up",
+      "location": "INT. ATTIC - CONTINUOUS",
+      "key_action": "Radio shaking."
+    },
+    {
+      "scene_id": 7,
+      "shot_description": "Medium shot of Sarah recoiling in horror as the dark shape forms within the radio speaker.",
+      "camera_angle": "Medium Shot",
+      "location": "INT. ATTIC - CONTINUOUS",
+      "key_action": "Sarah recoiling."
+    },
+    {
+      "scene_id": 8,
+      "shot_description": "Extreme close-up of the radio speaker bulging outward.",
+      "camera_angle": "Extreme Close-up",
+      "location": "INT. ATTIC - CONTINUOUS",
+      "key_action": "Speaker bulging."
+    },
+    {
+      "scene_id": 9,
+      "shot_description": "Medium shot of Sarah screaming as the dark shape bursts from the radio.",
+      "camera_angle": "Medium Shot",
+      "location": "INT. ATTIC - CONTINUOUS",
+      "key_action": "Sarah screaming."
+    },
+    {
+      "scene_id": 10,
+      "shot_description": "Black screen.",
+      "camera_angle": "Wide Shot",
+      "location": "INT. ATTIC - CONTINUOUS",
+      "key_action": "Fade to black."
+    }
+  ],
+  "storyboard_prompts": [
+    {
+      "scene_id": 1,
+      "prompt": "Wide shot, dusty and dimly lit attic, sunbeams piercing through cracks in the boarded-up windows, Sarah in the center, gently dusting an antique radio, motes of dust dancing in the light, warm color palette, nostalgic atmosphere, cinematic lighting, 35mm lens, film grain, 4K, vintage feel."
+    },
+    {
+      "scene_id": 2,
+      "prompt": "Medium shot, Sarah plugging an antique radio into a dusty outlet in a cluttered attic, sunbeams slicing through cracks in the boarded-up windows, cobwebs hanging like ghostly curtains, warm color palette, nostalgic mood, cinematic lighting, shallow depth of field, vintage film aesthetic, 35mm lens, grainy texture."
+    },
+    {
+      "scene_id": 3,
+      "prompt": "Tight close-up, antique vacuum tube radio powering on, warm orange glow from the tubes, crackling static emanating from the speaker, dust motes floating in the air, volumetric lighting, shallow depth of field, cinematic atmosphere, suspenseful mood, film grain, 35mm lens, hyperrealistic detail, 8K."
+    },
+    {
+      "scene_id": 4,
+      "prompt": "Extreme close-up on Sarah's face in a dusty attic, wide-eyed with fear and curiosity, soft volumetric lighting, cinematic atmosphere, hyperrealistic details, shallow depth of field, 50mm lens, thriller movie style, 8k."
+    },
+    {
+      "scene_id": 5,
+      "prompt": "Medium shot, Sarah cautiously approaching an old radio in a dusty, dimly lit attic, shafts of light cutting through the gloom, motes of dust dancing in the air, suspenseful atmosphere, high-contrast lighting, cinematic, 35mm lens, 4K, photorealistic."
+    },
+    {
+      "scene_id": 6,
+      "prompt": "Extreme close-up, vintage vacuum tube radio, violently shaking speaker cone, dust motes dancing in the air, ominous backlighting, gritty texture, suspenseful mood, horror film style, 35mm lens, shallow depth of field, 4K, photorealistic."
+    },
+    {
+      "scene_id": 7,
+      "prompt": "Medium shot, Sarah recoils in terror, wide eyes reflecting the eerie green glow emanating from an antique radio, dust motes dancing in the single shaft of moonlight piercing the gloom of the cluttered attic, shadows stretching long and distorted, suspenseful atmosphere, cinematic horror style, 35mm lens, shallow depth of field, 8k, hyperrealistic."
+    },
+    {
+      "scene_id": 8,
+      "prompt": "Extreme close-up, bulging antique radio speaker cone, dusty attic interior, warm volumetric lighting, shallow depth of field, unsettling mood, suspenseful, cinematic horror style, 85mm lens, 4K, hyperdetailed."
+    },
+    {
+      "scene_id": 9,
+      "prompt": "Medium shot, Sarah screaming in terror in a dusty, cluttered attic, a dark, swirling, amorphous shape erupting from an antique radio, volumetric lighting, dust motes dancing in the air, high contrast, dramatic shadows, horror movie, 35mm lens, gritty texture, 8k, hyperrealistic."
+    },
+    {
+      "scene_id": 10,
+      "prompt": "Cinematic wide shot, pure black screen, void, abyss, infinite darkness, absence of light, minimalist, stark, profound emptiness, fade to black, 8K, hyperrealistic, film noir."
+    }
+  ],
+  "storyboard_images": [
+    "outputs/images/scene_1.jpeg",
+    "outputs/images/scene_2.jpeg",
+    "outputs/images/scene_3.jpeg",
+    "outputs/images/scene_4.jpeg",
+    "outputs/images/scene_5.jpeg",
+    "outputs/images/scene_6.jpeg",
+    "outputs/images/scene_7.jpeg",
+    "outputs/images/scene_8.jpeg",
+    "outputs/images/scene_9.jpeg",
+    "outputs/images/scene_10.jpeg"
+  ],
+  "social_media_guide": {
+    "caption": "She thought it was just an old radio... she was DEAD wrong. \ud83d\udc80\ud83d\udcfb #StaticTerror",
+    "hashtags": [
+      "#horror",
+      "#shortfilm",
+      "#indiehorror",
+      "#hauntedradio",
+      "#scarystories",
+      "#supernatural",
+      "#atticfinds",
+      "#unearthed",
+      "#thedangersofunseenforcesandtheunsettlingnatureofthepastresurfacing.",
+      "#monster",
+      "#instadaily",
+      "#insta",
+      "#trendingatsephora",
+      "#trendingpku",
+      "#meme",
+      "#contemporaryartist",
+      "#weird",
+      "#ugly",
+      "#digitalart",
+      "#photooftheday",
+      "#bhfyp",
+      "#viral",
+      "#trendingnakhra"
+    ],
+    "thumbnail_text_ideas": [
+      "The Radio KNEW \ud83d\ude31",
+      "Attic Find = NIGHTMARE!",
+      "She Unleashed EVIL \ud83d\ude08"
+    ],
+    "best_post_time": "7:00 PM EST",
+    "video_title_variants": [
+      "Static Terror: The Antique Radio of DOOM!",
+      "Heeding the Call: How a Radio Ruined Everything",
+      "I Found a Haunted Radio in My Attic (GONE WRONG!)"
+    ]
+  },
+  "metadata": {
+    "idea_expansion_tokens": 488,
+    "script_writer_tokens": 1165,
+    "scene_breakdown_tokens": 1736,
+    "social_optimizer_tokens": 601
+  }
+}

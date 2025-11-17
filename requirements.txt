@@ -1,0 +1,30 @@
+# Core Agent Framework (Multi-agent, tools, memory, A2A)
+google-adk
+
+# Gemini API (Idea → Script → Scenes → Social outputs)
+google-generativeai
+
+# Flux image generation API client (you can replace backend later)
+fal-client
+
+# Image processing / saving storyboard frames
+pillow
+
+# Optional – Web UI for user input + showing storyboard
+streamlit
+
+# Optional – REST API backend for running the agent as a service
+fastapi
+uvicorn
+
+# Optional – Export final storyboard to PDF
+reportlab
+
+# Optional – File validation for uploads
+python-magic
+
+# Optional – Load environment variables (API keys)
+python-dotenv
+
+# Optional – Beautiful logs for debugging/observability
+rich

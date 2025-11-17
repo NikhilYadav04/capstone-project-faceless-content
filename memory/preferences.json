@@ -1,0 +1,6 @@
+{
+  "favorite_genres": ["Comedy", "Sci-Fi", "Horror"],
+  "preferred_styles": ["Cinematic", "Moody", "Minimalist"],
+  "max_duration": 60,
+  "caption_style": "Witty and informal"
+}
