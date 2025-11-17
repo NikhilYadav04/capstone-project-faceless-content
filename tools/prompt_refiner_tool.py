@@ -85,5 +85,4 @@ class PromptRefinerTool(FunctionTool):
 
         except Exception as e:
             logger.error(f"Error during prompt refinement: {e}")
-            # Fallback if the API call fails
             return {"prompt": scene_text}

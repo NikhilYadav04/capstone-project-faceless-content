@@ -51,8 +51,8 @@ class ImageGenerationTool(FunctionTool):
         body = {
             "prompt": prompt,
             "num_outputs": 1,
-            "width": 1024,  # Added for consistent size
-            "height": 1024,  # Added for consistent size
+            "width": 1024,
+            "height": 1024,
         }
 
         logger.info(f"Calling Stablecog API for scene {scene_id}...")

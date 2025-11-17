@@ -62,7 +62,7 @@ def generate_story_package(input: IdeaInput):
             logger.error("Pipeline ran but produced no output.")
             return {"error": "Pipeline produced no output."}
 
-        # Save the final output to a file (optional, but good for logging)
+        # Save the final output to a file
         output_path = "outputs/final/final_story_package.json"
         with open(output_path, "w") as f:
             json.dump(final_output, f, indent=2)

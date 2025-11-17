@@ -11,7 +11,6 @@ LOG_LEVEL = env.get("LOG_LEVEL", "INFO").upper()
 # --- Logger Setup ---
 
 # We configure the root logger once when this module is imported.
-# This ensures all subsequent loggers inherit this configuration.
 logging.basicConfig(
     level=LOG_LEVEL,
     format="%(message)s",  # RichHandler handles the formatting
@@ -38,5 +37,4 @@ def get_logger(name: str) -> logging.Logger:
         A logging.Logger instance.
     """
     # All loggers will inherit the root config,
-    # so we just need to get the logger by name.
     return logging.getLogger(name)

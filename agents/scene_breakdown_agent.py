@@ -61,7 +61,7 @@ class SceneBreakdownAgent(Agent):
         Takes the script and generates a list of visual shots.
         """
 
-        # --- FIX 1: Check for story_state.script, not .scenes ---
+      
         if not story_state.script:
             logger.warning("No script found. Skipping scene breakdown.")
             story_state.metadata["error_scene_breakdown"] = "Missing script"
@@ -83,7 +83,7 @@ class SceneBreakdownAgent(Agent):
             {script_json}
             """
 
-            # --- FIX 2: Use _llm, not llm ---
+           
             response = self._llm.generate_content(user_prompt)
 
             # The response will be {"scenes": [...]}

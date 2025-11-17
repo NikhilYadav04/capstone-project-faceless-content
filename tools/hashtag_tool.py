@@ -56,7 +56,6 @@ class HashtagTool(FunctionTool):
 
         try:
             # 1. Call the Tavily Search tool
-            # --- THIS IS THE FIX ---
             search_results = self._search_tool.search(query=query)
 
             # 2. Extract text from snippets

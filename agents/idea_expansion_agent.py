@@ -89,7 +89,6 @@ class IdeaExpansionAgent(Agent):
 
         except Exception as e:
             logger.error(f"Error during idea expansion: {e}")
-            # Handle error appropriately, maybe set a flag in the state
             story_state.metadata["error_idea_expansion"] = str(e)
 
         return story_state

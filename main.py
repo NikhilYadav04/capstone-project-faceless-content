@@ -150,7 +150,7 @@ def run_pipeline(idea: str) -> dict:
 if __name__ == "__main__":
     logger.info("Starting StoryCrafter pipeline...")
 
-    # --- THIS IS YOUR INPUT ---
+    # --- INPUT ---
     TEST_IDEA = "A short horror video about a person who finds an old, unplugged radio that starts talking"
 
     # Run the entire pipeline

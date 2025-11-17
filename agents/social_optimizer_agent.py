@@ -51,6 +51,7 @@ class SocialOptimizationAgent(Agent):
             system_instruction=SYSTEM_PROMPT,
             generation_config={"response_mime_type": "application/json"},
         )
+
         # Initialize the tool this agent needs
         self._hashtag_tool = HashtagTool()
 
@@ -71,7 +72,7 @@ class SocialOptimizationAgent(Agent):
         try:
             # 1. Use the HashTagTool to get some base hashtags
             topic = story_state.expanded_idea.get("theme", "general")
-            # --- FIX 1: Added underscore ---
+
             base_hashtags = self._hashtag_tool.call({"topic": topic})["hashtags"]
 
             # 2. Prepare the prompt for the LLM
@@ -87,7 +88,6 @@ class SocialOptimizationAgent(Agent):
             """
 
             # 3. Call the LLM
-            # --- FIX 2: Added underscore ---
             response = self._llm.generate_content(user_prompt)
 
             # 4. Store the output in the state

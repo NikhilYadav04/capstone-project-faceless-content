@@ -50,7 +50,7 @@ class ScriptWriterAgent(Agent):
 
     name: str = "script_writer_agent"
     description: str = "Writes a short video script from a cinematic concept."
-    # --- THIS IS THE FIX ---
+
     _llm: genai.GenerativeModel = PrivateAttr()
 
     def __init__(self):
@@ -80,7 +80,6 @@ class ScriptWriterAgent(Agent):
             {concept_json}
             """
 
-            # Added the underscore to _llm
             response = self._llm.generate_content(user_prompt)
 
             script_json = response.text

@@ -76,8 +76,6 @@ class SingleSceneVisualAgent(Agent):
 
 
 # --- Agent 2: The Orchestrator (Manages parallel workers) ---
-
-
 class StoryboardVisualAgent(Agent):
     """
     Agent 4: Manages the parallel generation of all storyboard visuals.
@@ -108,19 +106,14 @@ class StoryboardVisualAgent(Agent):
         )
 
         try:
-            # --- THIS IS THE REAL, WORKING FIX ---
-            # We use Python's built-in ThreadPoolExecutor
-            # to run our worker agent's .call() method
-            # on every scene in the list.
 
+            # Parallel Agent Executor
             visual_outputs = []
             with ThreadPoolExecutor() as executor:
                 # The .map() function here is from the ThreadPoolExecutor
                 # It runs the worker's call method on each scene
                 results = executor.map(self._worker_agent.call, story_state.scenes)
                 visual_outputs = list(results)
-
-            # --- End of Fix ---
 
             story_state.storyboard_prompts = []
             story_state.storyboard_images = []
