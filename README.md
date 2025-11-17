@@ -36,7 +36,7 @@ The user receives a single, comprehensive JSON package containing:
 - A list of all file paths for the generated storyboard images.
 - A full social media kit (caption, titles, and real hashtags).
 
-A creator can now feed these assets directly into an image-to-video model (like Pika or Runway) to complete their faceless video.
+A creator can now feed these assets into an image-to-video model (like Pika or Runway) to complete their faceless video, and even generate a custom voiceover using ElevenLabs.
 
 ## 🛠️ Tech Stack & Core Components
 
